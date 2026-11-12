@@ -1,5 +1,6 @@
 # tiny-chess-01: lzma-packed engine.
-import lzma,base64
+import lzma
+import base64
 D=(
 '0{{R31poj4|NsC0{{S?cCB?5^w9NaJG8}0oUB=VBSm?g?(l#h3>#6I#x;~`rgNR$^X>$gh2rx%>o**q%=b1Ns^^?rt^XS~9Cbhl4-f`fBig~7ivDvW63iHThF&3fyTHHn0SRc~TZ&#GNR}p)Ns*Eo+>W;B$^iq$sxSie;_Wv+}rZtlLttLbl)r59!I4-Aeju$WOm%1YOKkcyp33Bz<jQu)#piQaxZQESiwx<+q4m5uF;+f$5%k?y3Hr1Lf%DHA7m2ng~NKfI-+XP{B4Nrj-#Wbk?q{uL)iw{rC(?fW3BDLt=gg-rTQY=*eg=!Zt)MbC?1!jrlmY5oGy>o$?8FXRc{>+)x?VEd0<`1_kSIa*KSdEE3KVt0ZR;Q>&S%jChzfOHNa>ar^%qmr5E=?Rr'
 ')u~X7BYN3TZ&9<iEB)qsx{l_#`?mIkJ+$?lX6Vc-LEIXWGrMgm1tTzzFz<j`S^|s2ug#D~6ICW|amQz)O=&-1<GQgvZWyRsHC`|pFGl_9_(lIQ2qQ0@v=dv7!@CTojWO{`2qb<xbl$zCX4vZ~CMtm8>(|}Gq4>QEZ5bGklUy_IujTfj&|E`GyM{(_01N)+*LKikZU9Nhp-zxV@WuCMBf-{*0LdVbjYg%R&qeH=BRlLtFPiNVBpie;(k}PkWiQi9t}8fZqkH=N!7}Y^nJk`f3XC*I+&9yplx%Qg55Lsc1II)z-hnh$t|xi4q5sI}IaI#EE7+<JQ+0X82>|7+9K~|&1hO^<MWfBLFU;0m_uxnpU1T5pCl+FS6T8*Ow&ME#k%uP~UhqaD&)m}sr!#?!'
