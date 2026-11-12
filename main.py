@@ -1,4 +1,4 @@
-#tc
+# tiny-chess-01: lzma-packed engine.
 import lzma,base64
 D=(
 '0{{R31poj4|NsC0{{S?cCB?5^w9NaJG8}0oUB=VBSm?g?(l#h3>#6I#x;~`rgNR$^X>$gh2rx%>o**q%=b1Ns^^?rt^XS~9Cbhl4-f`fBig~7ivDvW63iHThF&3fyTHHn0SRc~TZ&#GNR}p)Ns*Eo+>W;B$^iq$sxSie;_Wv+}rZtlLttLbl)r59!I4-Aeju$WOm%1YOKkcyp33Bz<jQu)#piQaxZQESiwx<+q4m5uF;+f$5%k?y3Hr1Lf%DHA7m2ng~NKfI-+XP{B4Nrj-#Wbk?q{uL)iw{rC(?fW3BDLt=gg-rTQY=*eg=!Zt)MbC?1!jrlmY5oGy>o$?8FXRc{>+)x?VEd0<`1_kSIa*KSdEE3KVt0ZR;Q>&S%jChzfOHNa>ar^%qmr5E=?Rr'
