@@ -5,15 +5,17 @@ make.fun tiny-chess-01 competition. It plays the house gauntlet through
 the env (POST /game, POST /move), one game after another.
 
 Design: 0x88 board, fully legal move generation (castling, en passant,
-promotions), negamax alpha-beta search with PVS, quiescence search with
-check evasions and delta pruning, late move reductions, a transposition
-table used for move ordering, killer moves, zobrist position keys, and a
-material + piece-square evaluation with pawn-structure terms. It searches
-a fixed node budget per move (never a clock), so replays match exactly.
+promotions), negamax alpha-beta search with PVS, null-move pruning and
+check extensions, quiescence search with check evasions and delta
+pruning, late move reductions, a transposition table used for move
+ordering, killer moves, zobrist position keys, and a material +
+piece-square evaluation with pawn-structure and king-safety terms. It
+searches a fixed node budget per move (never a clock), so replays match
+exactly.
 
 main.py is the whole engine. To fit the size cap it carries the engine
 source as an lzma payload with a small unpacker, the packing the
 competition rules explicitly allow; the payload and unpacker together
-are the 3,958 bytes. The readable source was developed and perft-tested
+are the 4,088 bytes. The readable source was developed and perft-tested
 in the open (start position, Kiwipete and en-passant-pin suites all
 match the known node counts exactly).
